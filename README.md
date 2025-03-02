@@ -1,13 +1,41 @@
-# Expo Router Example
+# Lost No More - Bluetooth Tracker App
 
-Use [`expo-router`](https://docs.expo.dev/router/introduction/) to build native navigation using files in the `app/` directory.
+A React Native mobile application for managing and tracking Bluetooth devices, built with Expo and Supabase.
 
-## 🚀 How to use
+## Features
 
-```sh
-npx create-expo-app -e with-router
-```
+- 🔍 Real-time Bluetooth device tracking
+- 🗺️ Location history and mapping
+- 🔐 Secure authentication with Supabase
+- 💬 AI-powered chat assistance
+- 🌍 Geofencing capabilities
+- 📱 Cross-platform (iOS & Android)
 
-## 📝 Notes
+## Tech Stack
 
-- [Expo Router: Docs](https://docs.expo.dev/router/introduction/)
+- **Frontend**: React Native, Expo, TypeScript
+- **State Management**: React Context
+- **UI Framework**: React Native Paper
+- **Backend/Database**: Supabase
+- **Authentication**: Supabase Auth
+- **Bluetooth**: React Native BLE PLX
+- **AI Integration**: Together AI
+- **Location Services**: Expo Location
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+- Expo CLI
+- iOS Simulator or Android Emulator
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Create `.env` file with your Supabase credentials
+4. Start the development server: `npx expo start`
+
+## Project Structure
