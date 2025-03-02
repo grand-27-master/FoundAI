@@ -37,5 +37,3 @@ A React Native mobile application for managing and tracking Bluetooth devices, b
 2. Install dependencies: `npm install`
 3. Create `.env` file with your Supabase credentials
 4. Start the development server: `npx expo start`
-
-## Project Structure
